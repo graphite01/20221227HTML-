@@ -1,20 +1,38 @@
 .header {
-  width: 100%;
-  height: 50px;
+  height: 80px;
+  width: 1336px;
+  background-color: #DC5041;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  color: black;
-  font-weight: bolder;
+  font-size: 26px;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-left:25px;
+}
+
+.logout {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-right: 30px;
 }
 
 .main {
-  width: 100%;
-  height: 100%;
+  display:flex;
 }
 
-.footer {
-  width: 100%;
-  height: 50px;
-  background-color: brown;
+.side-bar {
+  height: 688px;
+  width: 260px;
+  background-color: #F8F5F5;
+}
+
+.chat-main {
+  height: 688px;
+  width: 1106px;
+  background-color: #FFFFFF;
 }
